@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: 18px;
   color: #cda45e;
   line-height: 0;
 }
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;
   top: 40px;
 }
 
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .navbar a i {
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 20px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -848,7 +848,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #1a181479;
 }
 
 .why-us .box span {
@@ -876,7 +876,7 @@ section {
 .why-us .box:hover {
   background: #cda45e;
   padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.548);
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
@@ -1743,13 +1743,19 @@ section {
   color: white;
   padding: 5px;
   border-radius: 5px;
-  text-align: center; /* Centrar el texto dentro de la caja */
+  text-align:left; /* Centrar el texto dentro de la caja */
+  font-size: 11px;
+  
 }
 
 .gallery-item:hover .caption {
   display: block; /* Mostrar el texto al pasar el cursor */
 }
 
-.letras-grandes {
-font-size: 50px;
+
+
+
+.display-3 {
+  font-size: 30px; /* Ajusta este valor según tus necesidades */
+ 
 }
